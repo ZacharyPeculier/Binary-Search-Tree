@@ -39,6 +39,7 @@ namespace Binary_Search_Tree
                 s = Console.ReadLine();
                 if (s == "i")
                 {
+                    Console.WriteLine("When you are done adding integers, type done");
                     userDone = false;
                     while (userDone != true)
                     {
@@ -198,7 +199,7 @@ namespace Binary_Search_Tree
         }
         public void print()
         {
-            Console.Write("Inorder Traverlsal:");
+            Console.Write("Inorder Traversal:");
             inOrder(root);
             Console.WriteLine();
         }
